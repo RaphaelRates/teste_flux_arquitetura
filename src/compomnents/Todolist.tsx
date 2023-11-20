@@ -46,10 +46,11 @@ export default function TodoList(){
 
             dispacher.dispatch(action)
 
-            fetch('https://jsonplaceholder.typicode.com/todos/1')
-                .then(response => response.json())
-                .then(json => console.log(json))
-
+            // fetch('https://jsonplaceholder.typicode.com/todos/1')
+            //     .then(response => response.json())
+            //     .then(json => console.log(json))
+            
+            // isso foi apenas para um teste isolado com uma falsa api
 
         } 
 
